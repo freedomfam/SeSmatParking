@@ -1,0 +1,46 @@
+name: projectkogin
+description: A new Flutter project.
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  firebase_auth: 0.11.1+12
+  firebase_core: ^0.4.0+8 
+  firebase_database: 3.0.7
+  #cloud_firestore: 0.12.9+4
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+flutter:
+  uses-material-design: true
+
+assets:
+    - assets/img/
+
+fonts:
+    - family: WorkSAnsSemiBold
+      fonts:
+        - asset: assets/font/WorkSans-SemiBold.ttf
+
+    - family: WorkSansBold
+      fonts:
+        - asset: assets/font/WorkSans-Bold.ttf
+    - family: WorkSansMedium
+      fonts:
+        - asset: assets/font/WorkSans-Medium.ttf
+
+
+
