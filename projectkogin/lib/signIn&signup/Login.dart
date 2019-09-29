@@ -1,5 +1,8 @@
 
-import 'package:firebase_auth/firebase_auth.dart';
+// import package ที่ต้องใช้เกี่ยวกับ firebase ซึ่งตัวนี้จะเรียก ข้อมูล การลงทะเบียนเป็น email
+import 'package:firebase_auth/firebase_auth.dart'; 
+/////
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:projectkogin/Page/home.dart';
@@ -131,6 +134,7 @@ class _LoginPageState extends State<LoginPage> {
       ),
       );
   }
+  //// ฟังก์ชันนี้ คือ ฟังก์ชัน เอาไว้เชคว่า ใน database ของ firebase นั้นมี email อยู่หรือไม่ท่าไม่มี จะไม่สามารถ login ได้ 
   void signIn() async {
     final formState = _formKey.currentState;
     if(formState.validate()){
@@ -143,6 +147,12 @@ class _LoginPageState extends State<LoginPage> {
       }
      
     }
+
+
+
+
+
+
 
   }
   void signup(){

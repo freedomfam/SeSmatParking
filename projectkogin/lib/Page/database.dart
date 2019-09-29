@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:firebase_database/firebase_database.dart';
+
+
+// ตัวนี้เป็นการ import package ของ database แบบ realtime
+import 'package:firebase_database/firebase_database.dart'; 
+//////
+
 
 class Database extends StatelessWidget{
   final DBRef = FirebaseDatabase.instance.reference();
