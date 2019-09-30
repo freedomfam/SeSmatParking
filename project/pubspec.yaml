@@ -1,0 +1,52 @@
+name: project
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+
+  intro_slider: ^2.2.8
+
+  flutter:
+    sdk: flutter
+    
+
+    
+    
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  font_awesome_flutter: ^8.0.1
+
+flutter:
+
+
+  uses-material-design: true
+
+ 
+  assets:
+    - images/logo.png
+    - images/bg.png
+    - images/BG.jpg
+    - images/BG1.jpg
+    - images/BG3.jpg
+
+  fonts:
+    - family: WorkSAnsSemiBold
+      fonts:
+        - asset: assets/font/WorkSans-SemiBold.ttf
+
+    - family: WorkSansBold
+      fonts:
+        - asset: assets/font/WorkSans-Bold.ttf
+    - family: WorkSansMedium
+      fonts:
+        - asset: assets/font/WorkSans-Medium.ttf
+
